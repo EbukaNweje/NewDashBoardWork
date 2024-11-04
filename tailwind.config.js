@@ -4,13 +4,12 @@ export default {
   theme: {
       extend: {},
       screens: {
-          xs: "480px",
-          ss: "620px",
-          sm: "768px",
-          md: "1060px",
-          lg: "1200px",
-          xl: "1700px",
-      },
+        phone: {max: "500px"},
+        tab: {max: "1024px"},
+        desktop: {max: "1280px"},
+        smallPhone: {max: "340px"},
+        MediumPhone : {max : '425px' }
+    },
   },
   plugins: [],
 };
